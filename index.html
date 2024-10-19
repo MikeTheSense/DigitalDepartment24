@@ -1,19 +1,63 @@
 <!DOCTYPE html>
+<html lang ="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Материалы по цк</title>
 </head>
 <body>
     <div class="container">
         <div>
             <h2>
-                Таблица посещаемости
+                Таблица посещаемости:
             </h2>
+            <div class="ratio ratio-16x9">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBwRDMZIrqO3mllKuCO3Rqq2y9tZZ73q3uDJ05wEd_ZboAoI5XBw_GOCSi0p8OyNQF-Tttq1UzuIaN/pubhtml?gid=575557330&amp;single=true&amp;widget=true&amp;headers=false" allowfullscreen></iframe>
         </div>
+        </div>
+        
     </div>
     <div class="container">
-        <iframe src="https://nbviewer.org/github/MikeTheSense/DigitalDepartment24/blob/main/Первая_Практика_Студентам.ipynb"></iframe>
+        <ul class="nav nav-tabs" id="colabTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="table1-tab" data-bs-toggle="tab" data-bs-target="#table1" type="button" role="tab" aria-controls="table1" aria-selected="true">Первая Лабораторная</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="table2-tab" data-bs-toggle="tab" data-bs-target="#table2" type="button" role="tab" aria-controls="table2" aria-selected="false" tabindex="-1">Вторая Лабораторная</button>
+            </li>
+        </ul> 
+        <div class="tab-content" id="colabTabContent">
+            <div class="tab-pane fade show active" id="table1" role="tabpanel" aria-labelledby="table1-tab">
+                <div class="text">
+                    Построение четкой когнитивной модели оценки реализуемости проекта 
+                    по созданию информационных систем и ее исследование Продолжительность занятия – 8 часов.<br>
+                    Цель работы: построить четкую когнитивную модель (ЧКМ) и ее исследовать с помощью программы, написанной на любом языке программирования. <br>
+                    В процессе практического занятия необходимо:
+                    <ul>
+                        <li>Выявить всевозможные параметры, влияющие на реализуемость проекта по созданию информационных систем (ИС).</li>
+                        <li>Выявить всевозможные связи между параметрами.</li>
+                        <li>Нарисовать четкую когнитивную модель с помощью любого графического редактора и подробно описать связи между параметрами.</li>
+                        <li>Написать программу, которая позволяет строить ЧКМ (добавлять и удалять параметры и связи, назначать веса) и ее исследовать (провести анализ структурной устойчивости и устойчивости по возмущению, по начальному значению;
+                             импульсное моделирование (представить 6 графиков импульсных процессов, отражающие положительные и негативные ситуации)), на любом языке программирования.</li>
+                        <li>Сделать вывод по построенной ЧКМ.</li>
+                    </ul>
+                </div>
+                <div class="ratio ratio-1x1">
+                    <iframe src="https://nbviewer.org/github/MikeTheSense/DigitalDepartment24/blob/main/Первая_Практика_Студентам.ipynb" allowfullscreen></iframe>
+                </div>              
+            </div>
+            <div class="tab-pane fade " id="table2" role="tabpanel" aria-labelledby="table2-tab">
+                <div class="text">
+                    tbd...
+                </div>
+                <div class="ratio ratio-1x1">
+                   
+                </div>              
+            </div>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+   
 </body>
+</html>
